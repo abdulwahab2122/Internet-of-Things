@@ -1,0 +1,12 @@
+Build an intruder detector (anti-thief) system for home security. The system must be armed
+(enabled) using a master switch. If the switch is off, none of the security features will work. For
+security purposes, first there is an ultrasonic distance sensor installed at the front door. If an
+intruder comes within 2.5m of the sensor, it will light up a bright lamp. The lamp will turn off if the
+intruder backs away, but not before 5 seconds. If instead the thief approaches the door and tries to
+turn the door handle, a force sensor within the handle detects the intrusion attempt. In such a case,
+a security alarm also starts ringing, and will continue to ring until the thief has moved away from the
+door (at least 2.5m).
+Components to be used on Tinkercad: slider (master on/off switch), ultrasonic distance sensor, flex
+sensor or force sensor, piezo (buzzer), light bulb.
+
+
